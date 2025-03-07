@@ -1,0 +1,37 @@
+{
+    "success": true, //Ignore. For internal use only
+    "code": "SUCCESS", //Ignore. For internal use only
+    "data": {
+        "from": 1514745000000, //Data duration
+        "to": 1522175400000,
+        "transactionData": [
+            {
+                "name": "Recharge & bill payments", //Type of payment category
+                "paymentInstruments": [
+                    {
+                        "type": "TOTAL",
+                        "count": 72550406, //Total number of transactions for the above payment category
+                        "amount": 1.4472713558652578E10 //Total value
+                    }
+                ]
+            },
+
+            ...,
+
+            ...,
+
+            {
+"gallery": "photo",
+                "name": "Others",
+                "paymentInstruments": [
+                    {
+                        "type": "TOTAL",
+                        "count": 5761576,
+                        "amount": 4.643217301269438E9
+                    }
+                ]
+            }
+        ]
+    },
+    "responseTimestamp": 1630346628866 //Ignore. For internal use only.
+}
